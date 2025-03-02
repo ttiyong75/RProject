@@ -14,7 +14,7 @@ gradeList = c("A+","A","B+","B","C+","C","D+","D","F")
 
 grade_score = data.frame(scoreList,gradeList)
 
-for (idx in 1:5){
+for (idx in 1:7){
   score = as.numeric(readline(prompt = "성적을 입력하세요"))
   
   if (score >= scoreList[1]){
