@@ -14,7 +14,7 @@ gradeList = c("A+","A","B+","B","C+","C","D+","D","F")
 
 grade_score = data.frame(scoreList,gradeList)
 
-for (idx in 1:7){
+for (idx in 1:5){
   score = (readline(prompt = "성적을 입력하세요"))
   if (is.na(as.numeric(score))){
     print("성적값이 올바르지 않습니다.")
